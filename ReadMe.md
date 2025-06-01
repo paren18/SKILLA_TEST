@@ -56,10 +56,15 @@ API Эндпоинты
 
 Метод	URI	Описание
 POST	/api/passport/token	Получить токен
+
 POST	/api/passport/token/refresh	Обновить токен
+
 GET	/api/passport/tokens	Получить все токены пользователя
+
 DELETE	/api/passport/tokens/{token_id}	Отозвать токен
+
 POST	/api/passport/logout	Выйти из системы
+
 GET	/api/passport/clients	Получить список клиентов
 PUT	/api/passport/clients/{client_id}	Обновить клиента
 DELETE	/api/passport/clients/{client_id}	Удалить клиента
